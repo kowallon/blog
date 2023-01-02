@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Source+Sans+Pro:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo-group" data-nav="logo">
+                <img class="logo" src="images/logo.webp" alt="blog logo" data-nav="logo">
+                <h3 data-nav="logo">My personal blog</h3>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a><br>
+                <a href="aboutMe.html">About me</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="postPage">
+        <div id="postPage">
+        <!-- render clicked post here -->
+        </div>
+
+            <h3 class="recent" id="recentText">Recent posts</h3>
+
+            <div class="recentPosts" id="recentPosts">
+
+            </div>
+        </main>
+    
+        <footer>
+            <div class="footer">
+                <h4>My blog</h4>
+                <h5>Copright Mateusz Kowalczyk</h5>
+            </div>
+        </footer>
+
+    </main>
+    
+    <script type="module" src="about.js"></script>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="post.js"></script>
+</body>
+</html>
